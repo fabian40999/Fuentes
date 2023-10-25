@@ -1,0 +1,161 @@
+@font-face {/*1*/
+    font-family: Melted;
+    src: url(../fonts/MeltedMonster.ttf);
+}
+
+@font-face{/*2*/
+    font-family: HelpMe;
+    src: url(../fonts/HelpMe.ttf);
+
+}
+
+@font-face{/*3*/
+    font-family: Storm;
+    src: url(../fonts/StormGust.otf);
+}
+
+
+/*----------------------------------------------------------------------------*/
+*{ margin: 0; padding: 0; }
+
+html{
+    width: 750px; height: 1000px;
+    margin: auto; background: #000000;
+}
+
+body{
+    width: 750px; height: 1000px;
+    margin: auto; background: #ffc0cb;
+    background-color: #00a808;
+
+}
+
+section#banner{
+    width: 250px; height: 250px;
+    font-family: Melted;
+    float: left;
+    background-color: #0007df;
+}
+
+
+section#logo{
+    width: 250px; height: 250px;
+    font-family: HelpMe;
+    float: left;
+    background-color: #00dfdf;
+}
+
+section#login{
+    width: 250px; height: 250px;
+    font-family: Storm;
+    float: right;
+    background-color: #a8001c;
+}
+
+.caja{
+    position: relative;
+    display: inline-block;
+}
+
+#uno{
+    position: absolute;
+    top: 20px; left: 5%;
+    background-color: #0007df;
+
+}
+
+#dos{
+    position: absolute;
+    top: 20px; left: 5%;
+    background-color: #00dfdf;
+
+}
+
+#tres{
+    position: absolute;
+    top: 20px; left: 5%;
+    background-color: #a8001c;
+
+}
+
+nav{
+    width: 750px; height: 250px;
+    background: #5c00a8;
+    color: #d6d90f;
+    font-family: Melted;
+    font-size: 20px;
+    /*box-shadow: 10px 10px 5px #eb1538;*/
+}
+
+section#inicio{
+    width: 250px; height: 250px;
+    background-color: #4866ed;
+    float: left;
+}
+
+section#producto{
+    width: 250px; height: 250px;
+    background-color: #0b199a;
+    float: left;
+}
+
+section#contacto{
+    width: 250px; height: 250px;
+    background-color: #004f2f;
+    float: left;
+}
+
+main{
+    width: 750px; height: 250px;
+    font-size: 20px;
+    color: #cdfc0a;
+    font-family: HelpMe;
+    /*box-shadow: 10px 10px 10px #f80303;*/
+
+}
+
+aside#hoy{
+    width: 250px; height: 250px;
+    background-color: #9a0b63;
+    float: left;
+
+}
+
+article#novedades{
+    width: 250px; height: 250px;
+    background-color: #0b9a50;
+    float: left;
+}
+
+aside#internacional{
+    width: 250px; height: 250px;
+    background-color: #8d1010;
+    float: right;
+}
+
+/*cuatro---------------------------------------------------*/
+
+footer{
+    width: 750px; height: 250px;
+    background: #07a97e;
+    font-size: 20px;
+    font-family: Storm;
+}
+
+aside#creditos{
+    width: 250px; height: 250px;
+    background: #bababa;
+    float: left;
+}
+
+article#lugar{
+    width: 250px; height: 250px;
+    background: #7d1c1c;
+    float: left;
+}
+
+aside#correo{
+    width: 250px; height: 250px;
+    background: #454b00;
+    float: left;
+}
